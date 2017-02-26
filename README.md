@@ -76,6 +76,7 @@ $('button').click(function() {
 
 // Show the first prompt as soon as js loads
 nextPrompt();
-</script>
 
+</script>
 </body>
+
