@@ -16,8 +16,7 @@ button{
 }
 input{
   font-size: 24px;
-}
-.fill{
+}.fill{
   background: white;
   color: red;
   border-bottom: 2px black solid;
@@ -57,7 +56,7 @@ var nextPrompt = function() {
 		// move the next prompt into variable currentPrompt 
 		currentPrompt = currentPrompt + 1;
 	}
-	//or else if we're at the end of the array
+	//or else if were at the end of the array
 	else {
 		// put a new message into the html.
 		showFinal();
