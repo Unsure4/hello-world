@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <head>
@@ -16,7 +17,8 @@ button{
 }
 input{
   font-size: 24px;
-}.fill{
+}
+.fill{
   background: white;
   color: red;
   border-bottom: 2px black solid;
@@ -40,12 +42,13 @@ var prompts = [
    ];
 
 var answers=[];
+
 // Keep track of current prompt we're on
 var currentPrompt = 0;
 
 // A function that will call the next prompt
 var nextPrompt = function() {
-  //if there's no answer in the form
+  //if theres no answer in the form
   if (currentPrompt != 0){
     answers.push($('input').val());
   }
